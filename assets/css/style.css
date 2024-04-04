@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #e2e2e2;
+}
+
+.logo-face {
+    width: 35%;
+    padding: 20px
+}
+
+.logo-face h2 {
+    color: #808080;
+    margin-left: 25px;
+}
+
+.login {
+    width: 32%;
+}
+
+.login button {
+    width: 365px;
+    height: 50px;
+    margin: 10px 0 10px 10px;
+    background-color: #0866ff;
+    border: none;
+    border-radius: 6px;
+    color: #FFF;
+    font-size: 1.5rem;
+}
+
+.login button:hover {
+    background-color: #4267b2;;
+}
+
+.form {
+    background-color: #FFF;
+    width: 90%;
+    height: 500px;
+    border-radius: 8px;
+}
+
+.form p {
+    color: #808080;
+}
+
+input[type="text"], input[type="password"] {
+    width: 365px;
+    height: 50px;
+    padding: 5px;
+    margin: 20px 0 10px 10px;
+    font-size: 1rem;
+    border: 1px solid #dddddd;
+    
+}
+
+input[type="text"], input[type="password"]:focus {
+    outline-color: #4267b2;
+}
+
+a {
+    display: block;
+    color: #0866ff;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+hr {
+    width: 90%;
+    margin: 0 auto;
+}
+

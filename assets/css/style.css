@@ -6,7 +6,7 @@
 }
 
 .container {
-    width: 70%;
+    width: 100%;
     margin: 0 auto;
     height: 100vh;
     display: flex;
@@ -17,19 +17,22 @@
 
 .logo-face {
     width: 35%;
-    padding: 20px
+    padding: 20px;
+    margin-left: 300px;
 }
 
 .logo-face h2 {
     color: #808080;
     margin-left: 25px;
+    width: 500px;
 }
 
 .login {
     width: 32%;
+    margin-right: 300px;
 }
 
-.login button {
+.btn-entrar {
     width: 365px;
     height: 50px;
     margin: 10px 0 10px 10px;
@@ -46,8 +49,8 @@
 
 .form {
     background-color: #FFF;
-    width: 90%;
-    height: 500px;
+    width: 63%;
+    height: 380px;
     border-radius: 8px;
 }
 
@@ -81,4 +84,45 @@ hr {
     width: 90%;
     margin: 0 auto;
 }
+
+.criar-conta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    margin: 30px auto;
+    background-color: #2df82d;
+    border-radius: 8px;
+    border: none;
+    color: #FFF;
+    font-size: 1rem;
+}
+
+.paragrafo-texto {
+    width: 65%;
+    margin-top: 30px;
+}
+
+.rodape {
+    padding: 50px;
+}
+
+.rodape ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.rodape a {
+    display: block;
+    text-decoration: none;
+    color: #808080;
+    gap: 10px;
+    margin: 0;
+}
+
+
 
